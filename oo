@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" "text/css" href="paez.css">
+
+<a href="http://192.168.x.x:9898/Local/paez/paez.html"> </a>
+
+<title>welcome to</tittle>
+
+
+
+
+
+
+
+
+ 
+
+<title>
+paez rest</title>
+<h2> welcome to</h2>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+<h1>PAEZ REST</h1>
+
+<br>
+<ul>
+<li><a href="http://localhost:9898/Local/paez/paez.html?0178F1FC-4241-4206-B6C2-C9E6CDC8B5D5">Home</a></li>
+<li><a href="http://localhost:9898/Local/paez/maune.html?468B705E-699C-4090-99A1-5275B1DEF16F">MENU</a></li>
+
+<li><a href="http://localhost:9898/Local/paez/video%20and%20photo.html?A1C8E428-DF57-460B-A334-47A66F2D09D6">Video and Photo</a></li>
+
+
+
+
+
+<li><a href="http://localhost:9898/Local/paez/contact.html?6A5359F7-685F-4BD6-8662-5E1D5849C9AE">Contact us</a></li>
+</ul>
+</div>
+  <title>Search Location</title>
+  <style>
+   
+    .search-container {
+      text-align: center;
+    }
+    .search-container input {
+      padding: 10px;
+      width: 300px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .search-container button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .search-container button:hover {
+      background-color: #0056b3;
+    }
+    .output {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-container">
+    <h1>Search for a Location</h1>
+    <input type="text" id="location-input" placeholder="Enter a place">
+    <button onclick="searchLocation()">Search</button>
+    <div class="output" id="output"></div>
+  </div>
+  <script>
+    function searchLocation() {
+      const location = document.getElementById('location-input').value;
+      if (location) {
+        document.getElementById('output').innerText = `Searching for: ${location}`;
+        // Add API integration here to fetch actual place details.
+      } else {
+        document.getElementById('output').innerText = `Please enter a location.`;
+      }
+    }
+  </script>
+
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509385!2d-122.42142058468126!3d37.77492957975885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b3d5a13%3A0x6f14ad1f3e9b49b9!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1617266290039!5m2!1sen!2sus" 
+      width="600" 
+      height="250" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+  </div>
+
+  </div>
+<pre>Batifa, near Batifa General Hospital 
+
+: 08:00Am - 02:00Am</pre>
+
+
+</div>
+<a href="https://www.instagram.com/paez.rest?igsh=aGwzenF0OGtjNDY5">
+  <img src="paez.jpeg"  alt="HTML tutorial" style="width:1000px;height:1000px;">
+</a>
+<br>
+<br>
+Menu Paez rest
+<br>
+<br>
+
+<a href="http://localhost:9898/Local/paez/%D8%A8%D9%8A%D8%B2%D8%A7.html?09F5216C-2563-4DCD-9F79-03C5249EE181"> Pizza </a>
+<br>
+<a href="http://localhost:9898/Local/paez/%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D9%87.html?BB1296A7-3B27-4C4B-A7FF-8B1772F742F3"> Shawarma </a>
+
+
+<br>
+<a href="http://localhost:9898/Local/paez/%D9%BE%D9%8A%D8%AF%D9%87.html?28E4AD6F-3C92-444F-9CED-A53829D5F6EC"> Pida</a>
+
+<br>
+<a href="http://localhost:9898/Local/paez/%D9%87%D8%A7%D9%85%D8%A8%DA%AF%D8%B1.html?1107789D-7845-4665-BFF4-9DA8E42D5350"> Hambuger</a>
+
+<br>
+<a href="http://localhost:9898/Local/paez/%D8%AE%D8%A7%D8%B1%D9%86%D9%8A%D9%86%20%D8%A8%D9%88%D9%83%D8%B3%D9%8A%D9%94.html?E7F397BE-700C-4090-BC7F-A16602030171"> Box food</a>
+
+<br>
+<a href="http://localhost:9898/Local/paez/%DA%A4%D9%87%20%D8%AE%D8%A7%D8%B1%D9%86%D9%8A%D9%86%20%D8%B3%D8%A7%D8%B1.html?BA1E6081-8125-435C-8B1C-6E6B601BCAC4"> Cold drink</a>
+
+<br>
+<a href="http://localhost:9898/Local/paez/%DA%A4%D9%87%20%D8%AE%D8%A7%D8%B1%D9%86%D9%8A%D9%86%20%DA%AF%D9%87%20%D8%B1%D9%85.html?938DB4CF-64AF-4C9E-9D1B-98AD2C48056D">warm drink</a>
+
+<br>
+<br>
+<br>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div> <!-- .cd-full-width -->
+                </li>
+            </ul> <!-- .cd-hero-slider -->
+                      
+        </div> <!-- .cd-hero -->        
+
+        <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+        <div id="loader-wrapper">            
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/tether.min.js"></script>                <!-- http://tether.io/ -->
+        <script src="js/isInViewport.min.js"></script>          <!-- isInViewport js (https://github.com/zeusdeux/isInViewport) -->
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+        <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        
+  
+
+
+  <footer>
+    <p>by Dilkhaz</p>
+  </footer>
+<script src="paez.js"></script>
+
+
+
+
+
+  
+</body>
+</html>
+img{width:200
+px 200px
+;}
+body{background-color:#ffbf80;
+margin:0px;
+
+
+
+}
+
+.header{
+color:#AC671A;
+position:sticky;
+top:0;
+
+
+
+
+
+}
+i{
+text-shadow:3px 3px 3px #915919;
+margin:5px;
+
+
+}
+h1{color:#915919;
+font-family:cursive;text-decoration:underline;
+
+margin-left:100px;
+
+
+}
+.icons{
+
+font-size:40px;
+display:inline;
+margin-left:200px;
+
+}
+
+
+ul{list-style:none;background-color:#cc6600;font-family:arial;text-align:center;
+margin-bottom:8px;}
+
+li{display:inline-block;
+margin:30px 30px;
+}
+
+a:link{color:white;}
+a:visited{color:white;}
+a:hover{color:red;
+background-color:
+#397F31;
+padding: 10px 20px;}
+a:active{color:red;}
+
+a{text-decoration:none;}
+div.album img{
+height:200px;
+width:300px;}
+
+.album{
+border:2px solid white;
+height:250px;
+width:300px;color:white;
+display:inline-block;
+margin:20px 20px;}
+
+.text{
+padding:10px;}
+
+div.album:hover{
+border:2px solid gray;}
+
+footer {
+  text-align: center;
+  background:#cc6600;
+  color: white;
+  padding: 10px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+form button {
+  background:#cc6600;
+  color:#cc6600;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background:#cc6600;
+}
+
+body {font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+  
+
+.map-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  if (name && email && message) {
+    document.getElementById("response").textContent = `Thank you, ${name}. We will get back to you soon!`;
+    this.reset();
+  } else {
+    document.getElementById("response").textContent = "Please fill out all fields.";
+  }
+}); 
+
